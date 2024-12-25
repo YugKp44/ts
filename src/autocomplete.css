@@ -1,0 +1,50 @@
+/* Add this CSS to your styles */
+.download-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.download-button:active {
+    background-color: #003f8a;
+}
+
+.logo-container {
+    margin: 20px auto;
+    border: 2px solid #130808;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.logo-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.logo-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
